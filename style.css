@@ -1,0 +1,46 @@
+/* Estilo do cabeçalho */
+.cabecalho {
+    text-align: center; /* Centraliza todo o conteúdo dentro do cabeçalho */
+    margin: 20px;
+}
+
+/* Estilo do título */
+.titulo {
+    background-color: rgb(109, 69, 146);
+    color: aliceblue;
+    border: none;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo para as imagens */
+.img1, .img2 {
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza as imagens e adiciona margem inferior */
+    width: 616px;
+    height: 356px;
+}
+
+/* Estilo para o botão */
+.button {
+    background-color: #3437e2; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 15px 32px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 8px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    width: 150px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    display: inline-block; /* Garante que o botão tenha uma área limitada */
+    margin: 20px auto; /* Centraliza o botão e adiciona margem superior e inferior */
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+.button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: rgb(121, 152, 255);
+}
