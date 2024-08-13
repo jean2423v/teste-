@@ -1,25 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOGOS</title>
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 class="titulo">Jogos Interessantes</h1>
-        
-        <!-- Imagem centralizada -->
-        <img src="image.png" alt="celeste" class="img1">
-
-        <!-- Botão centralizado -->
-        <a href="html2/index2.html">
-            <button class="button">CELESTE</button>
-        </a>
-
-        <!-- Outra imagem centralizada -->
-        <img class="img2" src="image copy.png" alt="STALCRAFT">
+    <!-- Barra de Título e Categorias -->
+    <header class="top-bar">
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#favoritos">Favoritos</a></li>
+                <li><a href="#gosto">Gosto</a></li>
+                <li><a href="#nao-gosto">Não Gosto</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="content">
+        <section id="favoritos">
+            <div class="section-header">
+                <h2>Favoritos</h2>
+                <a href="favoritos.html" class="view-all-btn">Ver Tudo</a>
+            </div>
+            <p>Conteúdo de Favoritos aqui...</p>
+        </section>
+        <section id="gosto">
+            <div class="section-header">
+                <h2>Gosto</h2>
+                <a href="gosto.html" class="view-all-btn">Ver Tudo</a>
+            </div>
+            <p>Conteúdo de Gosto aqui...</p>
+        </section>
+        <section id="nao-gosto">
+            <div class="section-header">
+                <h2>Não Gosto</h2>
+                <a href="nao-gosto.html" class="view-all-btn">Ver Tudo</a>
+            </div>
+            <p>Conteúdo de Não Gosto aqui...</p>
+        </section>
+    </main>
+
+    <!-- Barra de Rodapé -->
+    <footer class="bottom-bar">
+        <p>Contato: exemplo@meusite.com</p>
+        <p>Criador: Seu Nome</p>
+    </footer>
 </body>
 </html>
